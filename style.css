@@ -1,3 +1,12 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=League+Spartan:wght@100..900&display=swap');
+
+@font-face {
+    font-family: MADE Evolve Sans;
+    src: url("./Assets/fonts/MADE\ Evolve\ Sans\ Bold\ \(PERSONAL\ USE\).otf");
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +19,20 @@
     --tertiary-color: #0E79B2;
 }
 
+
 body{
     background: url("./Assets/img/bgmain\ \(2\).png");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
     width: 100%;
+}
+
+
+/* nav */
+#ul-nav{
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.3rem;
 }
 
 /* Login and Signup buttons */
@@ -67,10 +84,12 @@ body{
 }
 #main-section container, row, col, h1{
     font-size: 5.063rem;
+    font-family: "Bebas Neue", sans-serif;
 }
 #main-section container, row, col, h2{
     margin-top: 1.5rem;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
+    font-family: "Julius Sans One", sans-serif;
 }
 
 #getStarted {
