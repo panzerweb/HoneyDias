@@ -21,6 +21,7 @@
     #main-section container, row, col, h2{
         margin-top: 1.5rem;
         font-size: 1.2rem;
+        font-weight: 600;
     }
 }
 
