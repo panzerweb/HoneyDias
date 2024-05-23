@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FBFEF9;
+    --secondary-color: #191923;
+    --tertiary-color: #0E79B2;
+}
+
+body{
+    background: var(--primary-color);
+}
+
+/* Login and Signup buttons */
+#sign-upbtn{
+    background: var(--secondary-color);
+    border: none;
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+}
+
+#sign-upbtn a{
+    color: var(--primary-color);
+    display: inline-block;
+    transform: skew(21deg);
+}
+
+#sign-upbtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: var(--tertiary-color);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+#sign-upbtn:hover {
+    color: #fff;
+}
+  
+#sign-upbtn:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}

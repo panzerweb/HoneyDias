@@ -1,0 +1,7 @@
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px){
+    #ul-nav{
+        justify-content: flex-start !important;
+    }
+}
