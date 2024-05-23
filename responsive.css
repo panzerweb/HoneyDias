@@ -1,6 +1,31 @@
 
-/* Mobile Devices */
+/*! Mobile Devices */
 @media only screen and (max-width: 767px){
+    body{
+        background: url("./Assets/img/Mobile\ Assets.png");
+    }
+    #ul-nav{
+        justify-content: flex-start !important;
+    }
+
+    /* main */
+    #main-section{
+        margin-top: 11rem;
+    }
+    #main-section container, row, col, h1{
+        font-size: 2.93rem;
+    }
+    #main-section container, row, col, h2{
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* ! Tablet Devices */
+@media only screen and(min-width: 768px) and (max-width: 991px){
+    body{
+        background: cyan;
+    }
     #ul-nav{
         justify-content: flex-start !important;
     }

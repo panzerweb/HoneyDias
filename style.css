@@ -11,14 +11,17 @@
 }
 
 body{
-    background: var(--primary-color);
+    background: url("./Assets/img/bgmain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 /* Login and Signup buttons */
 #sign-upbtn{
     background: var(--secondary-color);
     border: none;
-    padding: 0.2rem 1rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
     font-size: 15px;
     font-weight: 600;
@@ -55,4 +58,16 @@ body{
     left: 0;
     right: 0;
     opacity: 1;
+}
+
+/* main */
+#main-section{
+    margin-top: 10rem;
+}
+#main-section container, row, col, h1{
+    font-size: 5.063rem;
+}
+#main-section container, row, col, h2{
+    margin-top: 1.5rem;
+    font-size: 2.25rem;
 }
