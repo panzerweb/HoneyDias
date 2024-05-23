@@ -11,10 +11,11 @@
 }
 
 body{
-    background: url("./Assets/img/bgmain.png");
+    background: url("./Assets/img/bgmain\ \(2\).png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
 
 /* Login and Signup buttons */
@@ -71,3 +72,22 @@ body{
     margin-top: 1.5rem;
     font-size: 2.25rem;
 }
+
+#getStarted {
+    font-family: monospace;
+    background-color: #3b82f6;
+    color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 5rem;
+    height: 45px;
+    transition: .3s;
+}
+  
+#getStarted:hover {
+    background-color: var(--tertiary-color);
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+  
