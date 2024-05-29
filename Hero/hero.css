@@ -1,0 +1,139 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=League+Spartan:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FBFEF9;
+    --secondary-color: #191923;
+    --tertiary-color: #0E79B2;
+}
+
+.navbar{
+    background: var(--primary-color);
+    transition: all 0.5s ease-in-out;
+    font-family: "League Spartan", sans-serif;
+    
+}
+
+.navbar .sidebar ul li a{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+
+#header-nav.scrolled {
+    background-color: #727272af;
+    --secondary-color: #FBFEF9;
+}
+
+
+/* Main Hero Section */
+#hero-section{
+    margin-top: 3rem;
+    background-image: url("../Assets/img/hero-bg-1.png");
+    background-size: cover;
+}
+
+.second-hero-column h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 7.61rem;
+}
+
+.second-hero-column h3{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1.563rem;
+}
+
+.second-hero-column button{
+    background: #0CC0DF;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    margin-top: 3rem;
+}
+  
+.second-hero-column button:hover {
+    color: #000000;
+    border-color: #000000;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Marquee Section for Brand Logo Slider */
+#brand-slider{
+    padding: 2rem 0;
+    background-color: #000;
+    overflow: hidden;
+    align-items: center;
+}
+
+#brand-slider .logo-slide{
+    white-space: nowrap;
+}
+#brand-slider .logo-slide img{
+    height: 50px;
+
+    object-fit: cover;
+    margin: 0 5rem;
+}
+
+/* About Us Style */
+.about-row{
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    background-color: #023047;
+    
+}
+.about-row .card img{
+    cursor: pointer;
+}
+.about-row .card img:hover{
+    content: url("../Assets/img/image1.jpg");
+}
+/* .about-row .card .hoverImg{
+    display: none;
+}
+.about-row .card:hover .hoverImg {
+    display: block;
+}
+.about-row .card:hover .imageNow {
+    display: none;
+} */
+
+.about-second-column h1{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.about-second-column h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 4.5rem;
+    font-size: 6rem;
+    color: var(--primary-color);
+}
+.about-second-column p{
+    font-family: "Julius Sans One", sans-serif;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+/* Todo Objectives Section */
+#objectives-section{
+    background-image: url("../Assets/img/objectives-bg.png");
+    background-size: cover;
+}
