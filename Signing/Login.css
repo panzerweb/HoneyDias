@@ -18,7 +18,7 @@ body {
   background: url("../Assets/img/bgmain.png") no-repeat center center;
   background-size: cover;
 }
-
+/* 
 body::before {
   content: "";
   position: absolute;
@@ -27,7 +27,7 @@ body::before {
   background: url("../Assets/img/bgmain.png") no-repeat center center;
   background-size: cover;
   z-index: -1;
-}
+} */
 
 .wrapper {
   width: 100%;
