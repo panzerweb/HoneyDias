@@ -103,7 +103,9 @@
 .about-row .card img:hover{
     content: url("../Assets/img/image1.jpg");
 }
-/* .about-row .card .hoverImg{
+/* 
+COMMENTED
+.about-row .card .hoverImg{
     display: none;
 }
 .about-row .card:hover .hoverImg {
