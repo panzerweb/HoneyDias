@@ -1,0 +1,50 @@
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px){
+    #ul-nav{
+        justify-content: flex-start !important;
+    }
+
+    #profile-section {   
+      flex-direction: column;
+    }
+  
+
+    .profile-name{
+        width: 50%;
+    }
+
+    .side .card{
+        width: 70%;
+        height: 100%;
+
+    }
+
+    .img-area img{
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .p-information{
+        width: 50%;
+    }
+
+    .social-media{
+        width: 50%;
+    }
+
+    .side{
+        width: 100%;
+        padding-top: 6rem;
+    }
+    .main{
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .stocks-card{
+        height: auto;
+        width: 100%;
+    }
+
+}
+
