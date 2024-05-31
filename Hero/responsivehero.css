@@ -57,8 +57,44 @@
 
     /*  */
 
-    /* Company Row Order */
-    #second-company-row{
+    /* developer section */
+    #dev-team{
+        padding-bottom: 5rem;
+    }
+    #dev-team h1{
+        margin: 0;
+        text-align: left;
+    }
+    #dev-team p{
+        margin: 0;
+        text-align: right;
+    }
+    #dev-team #dev-card{
+        margin: 1rem 0;
+        width: 100%;
+    }
+        /* For the fifth card */
+    #dev-team #dev-card1{
+        margin: 1rem auto;
+        width: 50%;
+    }
 
+    .img-area {
+        position: relative;
+        width: 50%;
+        height: auto;
+        background: var(--secondary-color);
+        margin: 1rem auto;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-area img{
+        width: 100%;
+        object-fit: contain;
     }
 }

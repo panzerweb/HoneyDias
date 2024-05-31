@@ -126,7 +126,7 @@ body{
     cursor: pointer;
 }
 .about-row #about-card img:hover{
-    content: url("../Assets/img/image1.jpg");
+    content: url("../Assets/img/image2.jpg");
 }
 /* 
 COMMENTED
