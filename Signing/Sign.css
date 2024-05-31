@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Jost', sans-serif;
-    background-image: url("../Assets/img/bgmain.png");
+    background-image: url("../Assets/img/signup-bg-2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,6 +53,18 @@ input {
     border: none;
     outline: none;
     border-radius: 5px;
+}
+#business-type {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 25px;
+    background: #e0dede;
+    border: none;
+    outline: none;
+    font-family:'Jost', sans-serif ;
+    color:rgb(117, 113, 113);
 }
 
 button {
@@ -131,5 +143,9 @@ button:hover {
 
     #chk:checked ~ .signup label {
         transform: scale(.8);
+    }
+    #business-type {
+        width: 70%;
+       
     }
 }

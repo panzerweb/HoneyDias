@@ -18,16 +18,20 @@
 					<input type="email" name="email" placeholder="Email" required="">
           <input type="number" name="broj" placeholder="Phone No" required="">
 					<input type="password" name="pswd" placeholder="Password" required="">
-					<button onclick="goToMain()">Sign up</button>
+				
 				</form>
 			</div>
 
 			<div class="login">
 				<form>
-					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button onclick="goToMain()">Login</button>
+					<label for="chk" aria-hidden="true">Business</label>
+					<input type="email" name="email" placeholder="Business name" required="">
+					<select id="business-type">
+						<option value="">Business Type</option>
+						<option value="Personal">Personal</option>
+						<option value="Commercial">Commercial</option>
+					</select>
+					<button onclick="goToMain()">Create</button>
 				</form>
 			</div>
 	</div>
