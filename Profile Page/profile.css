@@ -43,6 +43,10 @@ body{
     color: var(--secondary-color);
 }
 
+.navbar .sidebar .nav-item ul li a{
+  color: #000;
+}
+
 .navbar .sidebar ul li a{
     font-size: 1.2rem;
     color: var(--secondary-color);

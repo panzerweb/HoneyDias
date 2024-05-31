@@ -5,6 +5,34 @@
         justify-content: flex-start !important;
     }
 
+    
+    #offcanvasNavbar{
+        background: var(--primary-color);
+        transition: all 0.5s ease-in-out;
+        font-family: "League Spartan", sans-serif;
+        width: 100%;
+        
+    }
+    
+    #offcanvasNavbar a span{
+        color: var(--secondary-color);
+    }
+    
+    #offcanvasNavbar .nav-item ul li a{
+        color: #000;
+    }
+    
+    #offcanvasNavbar ul li a{
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+    }
+    
+    
+    #offcanvasNavbar.scrolled {
+        background-color: #727272af;
+        --secondary-color: #FBFEF9;
+    }
+
     #profile-section {   
       flex-direction: column;
     }

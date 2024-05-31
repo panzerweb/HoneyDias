@@ -1,6 +1,56 @@
+/* Mobile Devices */
+
 @media only screen and (max-width: 767px){
     #ul-nav{
         justify-content: flex-start !important;
     }
 
+    #offcanvasNavbar{
+        background: var(--primary-color);
+        transition: all 0.5s ease-in-out;
+        font-family: "League Spartan", sans-serif;
+        width: 100%;
+        
+    }
+    
+    #offcanvasNavbar a span{
+        color: var(--secondary-color);
+    }
+    
+    #offcanvasNavbar .nav-item ul li a{
+        color: #000;
+    }
+    
+    #offcanvasNavbar ul li a{
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+    }
+    
+    
+    #offcanvasNavbar.scrolled {
+        background-color: #727272af;
+        --secondary-color: #FBFEF9;
+    }
+
+
+    /* Main Section */
+    #hero-section{
+        padding-bottom: 5rem;
+    }
+    #hero-section img{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #hero-section h1{
+        font-size: 4rem;
+    }
+    #hero-section h3{
+        font-size: 1.2rem;
+    }
+    #hero-section button{
+        margin: 1rem;
+    }
+
+    /*  */
 }
