@@ -1,6 +1,9 @@
 /* Mobile Devices */
 
 @media only screen and (max-width: 767px){
+    body{
+        overflow-y: hidden;
+    }
     #ul-nav{
         justify-content: flex-start !important;
     }
@@ -53,4 +56,9 @@
     }
 
     /*  */
+
+    /* Company Row Order */
+    #second-company-row{
+
+    }
 }
