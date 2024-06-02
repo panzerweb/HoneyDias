@@ -31,6 +31,12 @@ body {
     height: 100%;
 }
 
+.signup i{
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #000;
+}
+
 label {
     color: #030303;
     font-size: 2.3em;
@@ -38,7 +44,7 @@ label {
     text-align: center;
     justify-content: center;
     display: flex;
-    margin: 50px;
+    margin: 10px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
@@ -107,7 +113,7 @@ button:hover {
 }
 
 #chk:checked ~ .login {
-    transform: translateY(-500px);
+    transform: translateY(-400px);
 }
 
 #chk:checked ~ .login label {
@@ -140,7 +146,7 @@ button:hover {
     }
 
     #chk:checked ~ .login {
-        transform: translateY(-480px);
+        transform: translateY(-400px);
     }
 
     #chk:checked ~ .signup label {

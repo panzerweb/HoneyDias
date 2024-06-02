@@ -2,7 +2,7 @@
 /*! Mobile Devices and Tablet Devices */
 @media only screen and (max-width: 767px){
     body{
-        background: url("./Assets/img/Mobile\ Assets.png");
+        background: url("./Assets/img/Mobile\ Assets-new.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
