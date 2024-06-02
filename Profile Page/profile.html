@@ -120,47 +120,35 @@
                                 </span>
                                 <input type="number" class="form-control" placeholder="Mobile No." aria-label="Mobile No." aria-describedby="basic-addon2">
                             </div>
+                            
+                        </div>
+                    </div>
+                    <!-- !Business Creation Fields -->
+                    <div class="business-media card d-flex">
+                        <div class="card-body">
+                            <select class="form-select mb-3" aria-label="Default select example">
+                                <option selected>Business Type</option>
+                                <option value="1">Personal</option>
+                                <option value="2">Commercial</option>
+                              </select>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">
+                                    <i class="bi bi-buildings-fill"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Business" aria-label="Business" aria-describedby="basic-addon1">
+                            </div>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon2">
                                     <i class="bi bi-house-door-fill"></i>
                                 </span>
                                 <input type="text" class="form-control" placeholder="Address" aria-label="Address" aria-describedby="basic-addon2">
                             </div>
-                        </div>
-                    </div>
-                    <!-- ! Social Media Fields -->
-                    <div class="social-media card">
-                        <div class="card-body">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                    <i class="bi bi-meta"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="Facebook" aria-label="Facebook" aria-describedby="basic-addon1">
-                            </div>
+                            
 
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                    <i class="bi bi-globe"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="Website" aria-label="Website" aria-describedby="basic-addon1">
-                            </div>
-
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                    <i class="bi bi-instagram"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="Instagram" aria-label="Instagram" aria-describedby="basic-addon1">
-                            </div>
-
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">
-                                    <i class="bi bi-twitter-x"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="X" aria-label="X" aria-describedby="basic-addon1">
-                            </div>
+                           
                             
                             <button class="btn btn-danger">
-                                Save
+                                Add Business
                             </button> 
                         </div>
                     </div>
@@ -170,6 +158,12 @@
                 <div class="main">
                      <!-- ! Company Information -->
                     <div class="main-card card">
+                        <select class="form-select w-50 m-3" aria-label="Default select example">
+                            <option selected>My Businesses</option>
+                            <option value="1">Business 1</option>
+                            <option value="2">Business 2</option>
+                            <option value="3">Business 3</option>
+                          </select>
                         <!-- Banner or Company Cover Photo -->
                         <input type="file" id="file" accept="image/*" hidden>
                         <div class="banner-area" data-img="">
@@ -188,6 +182,7 @@
                                 Company Type :
                                 <span class="text-muted">Retail Store</span>
                             </h3>
+                            <button type="button" class="btn btn-success">Add Branch</button>
                         </div>
 
                        
@@ -195,8 +190,18 @@
                     <!-- ! Table for Stocks and Items -->
                     <div class="stocks-card card d-flex flex-column">
                         <div class="card-body">
-                            <div class="row">
-                                <div class="col-12">
+                            
+                            <div class="row align-items-center">
+                                <div class="col-6 col-sm-6">
+                                    <select class="form-select w-100 m-1" aria-label="Default select example">
+                                        <option selected>Branches</option>
+                                        <option value="1">Panabo Branch</option>
+                                        <option value="2">Tibungco Branch</option>
+                                        <option value="3">Matina Branch</option>
+                                      </select>
+                                </div>
+                                
+                                <div class="col-6 col-sm-6">
                                     <button class="btn btn-primary">
                                         Add Stocks
                                     </button>

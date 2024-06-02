@@ -27,7 +27,7 @@
 }
 
 body{
-    background-color: var(--fifth-color);
+    background-color: var(--primary-color);
 }
 
 
@@ -97,7 +97,7 @@ body{
     background-color: var(--tertiary-color);
     padding: 5rem 1rem 1rem;
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 .side .card{
@@ -223,7 +223,7 @@ body{
     margin: 0 auto;
     height: 100%;
     width: auto;
-    background-color: var(--fifth-color);
+    background-color: var(--primary-color);
 }
 
 .main-card{
