@@ -24,10 +24,9 @@
         font-weight: 600;
     }
 }
-
-@media only screen and (min-width: 768px) and (max-width: 991px){
+/* tablet devices */
+@media only screen and (min-width: 770px) and (max-width: 991px){
     body{
-        background: url("./Assets/img/Mobile\ Assets\ tab.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
