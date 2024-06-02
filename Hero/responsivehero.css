@@ -42,7 +42,7 @@
     }
     #hero-section img{
         display: block;
-        width: 100%;
+        width: 70%;
         margin: 0 auto;
     }
     #hero-section h1{
@@ -142,7 +142,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     #hero-section img{
         display: block;
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
     }
     #hero-section button{
