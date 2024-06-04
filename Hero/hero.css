@@ -421,6 +421,28 @@ COMMENTED
 #company-section #promote-text span{
     color: rgb(178, 14, 14);
 }
+#company-section button{
+  background: #0CC0DF;
+  color: #000000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+  margin-top: 3rem;
+  width: 30%;
+  
+}
+
+#company-section button:hover {
+  color: #000000;
+  border-color: #000000;
+  background: rgba(255, 255, 255, 0.15);
+}
+
 
 /* developer section */
 #dev-team{

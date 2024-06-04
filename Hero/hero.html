@@ -82,11 +82,29 @@
 
                             <h3>A financial hub for every individual and businesses</h3>
 
-                            <button type="button">Get Started</button>
+                            <button type="button" onclick="aboutUs()" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
                         </div>
                     </div>
                 </div>
           </section>
+
+          <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome to HoneyDias Financial Hub</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Thank you for joining our Financial Hub! To get started, please follow these steps:</p> <ol> <li>Post your business and manage your stocks with ease using our intuitive platform.</li> <li>Stay informed about personal finance and wealth management through our informative blogs.</li> <li>Take advantage of our resources to boost your sales and grow your business.</li> </ol> <p>By following these steps, you'll be well on your way to achieving financial success with HoneyDias. If you have any questions or need assistance, please don't hesitate to reach out to our support team.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- todo marquee section for brand logo slider -->
 
@@ -270,6 +288,9 @@
                     <div class="col-lg-6 col-md-12 align-self-start order-1 order-lg-2" id="company-column">
                       <img src="../Assets/img/blog-4.jpg" alt="">
                     </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <button type="button">Browse More</button>
                   </div>
               </div>
             </section>
