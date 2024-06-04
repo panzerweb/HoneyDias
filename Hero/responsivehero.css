@@ -87,6 +87,15 @@
         margin-top: 1rem;
 
       }
+      #company-section #promote-text h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 0;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    #company-section #promote-text span{
+        color: rgb(178, 14, 14);
+    }
 
     /* developer section */
     #dev-team{

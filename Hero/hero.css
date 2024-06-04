@@ -409,6 +409,15 @@ COMMENTED
     font-family: 'Bebas Neue', sans-serif;
 }
 
+#company-section #promote-text h1{
+    font-size: 6rem;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#company-section #promote-text span{
+    color: rgb(178, 14, 14);
+}
+
 /* developer section */
 #dev-team{
     padding-bottom: 5rem;
