@@ -76,10 +76,14 @@
 
 }
 
-@media only screen and (min-width: 768px){
+/* Tablet Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px){
     #ul-nav{
         justify-content: flex-start !important;
     }
+}
+
+@media only screen and (min-width: 768px){
 
     #offcanvasNavbar{
         background: var(--primary-color);
