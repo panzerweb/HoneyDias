@@ -24,6 +24,10 @@
     --another-font: "League Spartan", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -734,3 +738,31 @@ COMMENTED
 }   
 
 /**END OF FOOTER*/
+
+
+
+/* ADDONS */
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--secondary-color); 
+  background: #023047;
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--sixth-color); 
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--tertiary-color); 
+}
+
